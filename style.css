@@ -1,0 +1,188 @@
+/* bütün boşlukları sıfırla*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#sayfa{
+    width: 900px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+
+}
+/*banner header etiketi içinde*/
+
+#banner{
+    width: 898px;
+    min-height: 70px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    background-color: white;
+}
+/*logo alanı*/
+#logo{
+    width: 50px;
+    height: 20px;
+    border-style: none;
+    border-width: 1px;
+   
+    background-color: white;
+    position: relative;
+    top: 6px;
+    left: 6px;
+    float: left;
+
+}
+#vesika{
+    width: 100px;
+}
+/*sosyal medya ikonları*/
+#sosyal{
+    width: 240px;
+    min-height: 40px;
+    border-style: none;
+    border-width: 1px;  
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 10px;
+
+    float: right;
+   
+  
+}
+/*ikonların konumu oluşturuldu*/
+#ikon{
+    width: 40px;
+    height: 30px;
+  margin-left: 14px;
+  position: relative;
+  top: 4px;
+
+
+
+}
+/*anamenü oluşturma*/
+#anamenu{
+    width: 896px;
+    min-height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    background-color:cornflowerblue;
+}
+/*id si anamenu olan etiketin içindeki ul listesi için yazıyoruz*/
+#anamenu ul{
+    list-style-type: none;
+
+}
+/*id si anamenu olan etiketin içindeki ul listesi içindeki li etiketi için yazıyoruz*/
+
+#anamenu ul li{
+   
+    border-style: solid;
+    border-width: 3px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    float: left;
+    padding: 6px;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    top: 6px;
+
+
+}
+#anamenu ul a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#anamenu ul a:link{
+    color: black;
+
+}
+#anamenu ul a:visited{
+    color: grey;
+    
+
+}
+#anamenu ul a:hover{
+    color: blue;
+    text-decoration: underline;
+    
+
+}
+/*içerik ve yanmenu kodları*/
+#icerik{
+    width: 600px;
+    min-height: 400px;
+    border-style: solid;
+    border-width: 1px;
+   
+    background-color: white;
+    margin-left: 0%;
+   
+}
+#yanmenu{
+    width: 298px;
+    height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    background-color:aquamarine;
+    float:right;
+    position:fixed;
+    right: 319px;
+    top: 124px;
+   
+    
+   
+
+    
+  
+
+}
+.resim{
+    width: 200px;
+    height: 200px;
+    float:left ;
+}
+article h1{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+article p{
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+#altmenu{
+    width: 898px;
+    min-height: 73px;
+    border-style: solid;
+    border-width: 1px;
+   
+    background-color:aquamarine;
+    float: left;
+    text-align: center;
+    color: black;
+}
+footer a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+footer a:hover{
+    color: grey;
+    text-decoration: underline;
+}
